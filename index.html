@@ -5,57 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio Web</title>
+
+    <style>
+
+        h1 {
+            font-style: italic;
+            text-align: center;
+            color: red;
+            font-size: 4em;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .p1 {
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .p2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .img {
+            text-align: center;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .indice {
+            color: red;
+            font-size: 20px;
+        }
+
+        .habilidades {
+            font-size: 20px;
+        }
+
+        .habilidades1 {
+            font-size: 20px;
+            color:rgb(0, 201, 0);
+        }
+
+        #cidade {
+            background-color: blue;
+        }
+
+    </style>
+
 </head>
 <body>
     <h2>Índice</h2>
     <ul>
-        <li><a href="#SobreMim">Sobre mim</a></li>
-        <li><a href="#Habilidades">Minha lista de Habilidades</a></li>
-        <li><a href="#Links">Links</a></li>
-        <li><a href="#Links">GitHub</a></li>
-        <li><a href="#Links">LinkedIn</a></li>
+        <li class="indice"><a class="indice" href="#SobreMim">Sobre mim</a></li><br>
+        <li class="indice"><a class="indice" href="#Habilidades">Minha lista de Habilidades</a></li><br>
+        <li class="indice"><a class="indice" href="#Links">Links</a></li><br>
+        <li class="indice"><a class="indice" href="#Links">GitHub</a></li><br>
+        <li class="indice"><a class="indice" href="#Links">LinkedIn</a></li>
     </ul>
-
-    <img src="Willian.jpg" alt="Minha foto, Willian Afonso ao lado de um carro de F1" width="400px">
-    <br>
+    <br><br><br><br><br>
+    <div class="img"><img src="Willian.jpg" alt="Minha foto, Willian Afonso ao lado de um carro de F1" width="400px"></div>
+    <br><br>
     <h1>Willian Afonso Domingues</h1>
-   
+    <br><br>
     <h2><ul><li>Sobre mim:</li></ul></h2>
-    <p id="SobreMim">Sou natural de <em><strong>São José dos Campos</em></strong> uma cidade do interior do estado de <em>
+    <div class="p1"><p id="SobreMim">Sou natural de <em id="cidade"><strong>São José dos Campos</em></strong> uma cidade do interior do estado de <em>
         São Paulo, Brasil.</em><br>
-    Atualmente moro na minha cidade natal mesmo, <em>São José dos Campos.</em><br>
+    Atualmente moro na minha cidade natal mesmo, <em id="cidade">São José dos Campos.</em><br>
     Tenho 29 anos, nascido no dia <em><strong>13 de Setembro de 1992</em></strong>.<br>
     Gosto de praticar todo tipo de <em>esporte</em>, viajar muito, conhecer novas culturas e lugares,<br> 
     amo estar com minha família e amigos, gosto de animais e meu estilo de música favorita é eletrônico,<br>
     inclusive gosto de ir à <em>Festivais Eletrônico.</em>
-    </p>
-
+    </p></div>
+    <br><br><br><br>
     <h2><ul><li>Minha lista de Habilidades:</li></ul></h2>
     <p id="Habilidades">
         <ol>
-            <li><strong>Organizado.</strong></li>
-            <li>Comunicativo.</li>
-            <li>Comprometido.</li>
-            <li>Facilidade em aprender.</li>
-            <li>Trabalho em equipe.</li>
-            <li>Flexivel.</li>
-            <li>Criativo.</li>
-            <li>Empático.</li>
-            <li>Resiliência.</li>
-            <li>Persistente.</li>
+            <li class="habilidades1"><strong>Organizado.</strong></li><br>
+            <li class="habilidades">Comunicativo.</li><br>
+            <li class="habilidades">Comprometido.</li><br>
+            <li class="habilidades">Facilidade em aprender.</li><br>
+            <li class="habilidades">Trabalho em equipe.</li><br>
+            <li class="habilidades">Flexivel.</li><br>
+            <li class="habilidades">Criativo.</li><br>
+            <li class="habilidades">Empático.</li><br>
+            <li class="habilidades">Resiliência.</li><br>
+            <li class="habilidades">Persistente.</li><br>
         </ol>
     </p>
 
-    <h3><ul><li>Links:</li></ul></h3>
-    <p id="Links">
-        <a href="https://dev.to/t/blog" target="_blank">Blog que eu mais gosto.</a> 
-        <br>
-        <a href="file:///home/dell/Trybe/Fundamentos/HTML%20e%20CSS/Exercicio1/Willian.jpg">Minha foto.</a>
-        <br>
-        <a href="https://github.com/willianAD">Meu GitHub.</a>
-        <br>
-        <a href="https://www.linkedin.com/in/willian-afonso-a62a5623b/">Meu LinkedIn.</a>
-    </p>
+    <h2><ul><li>Links:</li></ul></h2>
+    <div class="p2"><p id="Links"><br><br>
+        <a href="https://dev.to/t/blog" target="_blank">Blog que eu mais gosto</a> 
+        <br><br><br>
+        <a href="Willian.jpg">Minha foto</a>
+        <br><br><br>
+        <a href="https://github.com/willianAD" target="_blank">Meu GitHub</a>
+        <br><br><br>
+        <a href="https://www.linkedin.com/in/willian-afonso-a62a5623b/" target="_blank">Meu LinkedIn</a>
+    </p></div>
 
 </body>
 </html>
