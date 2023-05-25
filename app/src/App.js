@@ -13,7 +13,6 @@ function App() {
   const [storage, setStorage] = useState('darkMode');
   return (
     <Switch>
-      {/* <div className={ localStorage.getItem('theme') }> */}
       <div className={storage === "darkMode" ? "darkMode" : "lightMode" }>
         <Header changeMode={ setStorage } />
         <Route exact path="/" component={ HomePage } />
